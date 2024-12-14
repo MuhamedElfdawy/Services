@@ -1,13 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:my_services/auth/confirmemail/view.dart';
-import 'package:my_services/auth/login/view.dart';
-import 'package:my_services/auth/reset_pass/view.dart';
-import 'package:my_services/auth/selection/view.dart';
 import 'package:my_services/auth/splash/view.dart';
 import 'package:my_services/core/logic/helper_methods.dart';
-import 'package:my_services/home/mainScreen/view.dart';
-import 'package:my_services/home/view.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 late final SharedPreferences prefs;
